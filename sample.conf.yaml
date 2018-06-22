@@ -1,0 +1,11 @@
+mattermost_api:
+  url: <Mattermost Server URL>
+  login_id: <Mattermost user login>
+  password: <Mattermost password>
+
+notification_settings:
+  team_name: a-team # The team where the incident channel is created
+  alert_users: # A list of usernames who are added to the incident channel
+    - alice
+    - bob
+    - carol

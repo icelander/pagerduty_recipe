@@ -1,0 +1,14 @@
+// Change `execute-command` and `command-working-directory` values to match your environment
+[
+  {
+    "id": "pagerduty_hook",
+    "execute-command": "/path/to/pagerduty-recipe/main.rb",
+    "command-working-directory": "/path/to/pagerduty-recipe/",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "entire-payload"
+      }
+    ]
+  }
+]
